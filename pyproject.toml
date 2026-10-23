@@ -1,0 +1,21 @@
+[project]
+name = "flow-matching-from-scratch"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "dataclasses>=0.8",
+    "dataset>=2.0.0",
+    "numpy>=2.5.4",
+    "torch>=2.14.1",
+]
+
+[project.scripts]
+flow-matching-from-scratch = "flow_matching_from_scratch:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.basedpyright]
+typeCheckingMode = "off"
