@@ -114,7 +114,7 @@ TORCHINDUCTOR_COMPILE_THREADS=1 uv run torchrun --standalone --nproc_per_node=2 
 
 | Dataset | Steps | Throughput | Notes |
 |---|---|---|---|
-| CIFAR-10 | TODO | ~1750 img/s on 2x RTX 3090 | UNet (128/256/256) |
+| CIFAR-10 | 300000 | ~1750 img/s on 2x RTX 3090 | UNet (128/256/256) |
 
 **Hardware:** 2x NVIDIA RTX 3090 (24 GB) with DDP.
 
