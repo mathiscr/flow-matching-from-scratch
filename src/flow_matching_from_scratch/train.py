@@ -12,7 +12,6 @@ def build_configs():
     for cls in (UNetConfig, TrainConfig):
         for f in fields(cls):
             if f.type in (bool, "bool"):
-                # donne --use_rope et --no-use_rope
                 parser.add_argument(
                     f"--{f.name}", action=argparse.BooleanOptionalAction, default=None
                 )
