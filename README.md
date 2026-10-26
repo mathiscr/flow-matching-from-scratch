@@ -51,7 +51,7 @@ src/flow_matching_from_scratch/
 The project uses [uv](https://github.com/astral-sh/uv).
 
 ```bash
-git clone git@github.com:mathiscr/flow-matching-from-scratch.git # with SSH
+git clone https://github.com/mathiscr/flow-matching-from-scratch.git
 cd flow-matching-from-scratch
 uv sync
 ```
