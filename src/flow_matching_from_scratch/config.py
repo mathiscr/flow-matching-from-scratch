@@ -54,7 +54,7 @@ class TrainConfig:
     project: str = "flow-matching-from-scratch"
     name: str = "cifar10-ot-baseline"
     group: str = "cifar10"
-    use_wandb: str = False
+    use_wandb: bool = False
     seed: int = 42
 
     @property
